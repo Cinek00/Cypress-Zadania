@@ -24,11 +24,18 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-/////////
+//////////////////////////////////////////////////////////////
     // komenda pod zadanie moduł 2 [Login i password LMS GoIT]
-Cypress.Commands.add("login", (login, password) => {
+    //Test1
+Cypress.Commands.add("login1", (login, password) => {
     cy.get("#user_email").type(login);
     cy.get("#user_password").type(password);
   });
+//Test 2
+Cypress.Commands.add("login2", (login, password) => {
+  cy.get("#user_email").type(login);
+  cy.get("#user_password").type(password);
+});
 
-/////////
+
+//////////////////////////////////////////////////////////////
