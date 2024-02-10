@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "login": "cypress run --spec cypress/e2e/Moduł2/login.cy.js"
+    "login:test": "cypress run --spec cypress/e2e/Moduł2/login.cy.js"
   },
   "keywords": [],
   "author": "",
