@@ -12,4 +12,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Cypress run
-        run: npm run login:test
+        run: npm run cypress:run:bdd

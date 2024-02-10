@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "login:test": "cypress run --spec cypress/e2e/Modul2/login.cy.js"
+    "cypress:open:chrome": "npx cypress run -b chrome --headed",
+    "cypress:open:firefox": "npx cypress run -b firefox --headed",
+    "cypress:run:bdd": "npx cypress run"
   },
   "keywords": [],
   "author": "",
