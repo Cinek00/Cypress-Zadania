@@ -12,5 +12,3 @@ jobs:
         run: npm install
       - name: Cypress run
         run: npm run login
-      - name: Cypress run
-        run: cypress run --spec cypress/e2e/Moduł2/login.cy.js
