@@ -7,7 +7,7 @@
     "cypress:open:chrome": "npx cypress run -b chrome --headed",
     "cypress:open:firefox": "npx cypress run -b firefox --headed",
     "cypress:run:bdd": "npx cypress run",
-    "cypress:run:api": "npx cypress run --spec cypress/e2e/Modul4/TestAPI.cy.js"
+    "cypress:run:api": "npx cypress run --spec cypress/e2e/Modul2/Login.cy.js"
   },
   "keywords": [],
   "author": "",
