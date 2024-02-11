@@ -37,4 +37,4 @@ scenarios:
             - json: "$.headers.host"
               as: "host"
       - log: "Json value from response is: {{ request_body }}"
-      - log: "Host value from response is: {{ host }}"
+      - log: "Host value from response is: {{ host }}" 
